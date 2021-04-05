@@ -1,0 +1,50 @@
+.App {
+    background-color: darkslateblue;
+    display: inline-block;
+
+}
+
+.scoreContainer {
+    padding: 40px 0;
+    display: block;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.inputContainer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.inputText {
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.inputValue {
+    display: inline-block;
+    padding: 5px 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+}
+
+.button {
+    padding: 7px 15px;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 100px;
+
+}
+.button:disabled{
+    background-color: gray;
+}
+
+.error {
+    color: red;
+}
